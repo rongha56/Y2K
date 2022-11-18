@@ -17,6 +17,7 @@ public class LoginController {
 	
 	@GetMapping("/loginpage.lo")
 	public String moveLoginView() {
+		System.out.println(1);
 		return "loginPage";
 	}
 	
